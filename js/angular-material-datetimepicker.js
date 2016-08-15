@@ -41,7 +41,7 @@
     + '            <div class="dtp-time" ng-show="picker.params.time && !picker.params.date">'
     + '                <div class="dtp-actual-maxtime">{{picker.currentNearest5Minute().format(picker.params.shortTime ? "hh:mm" : "HH:mm")}}</div>'
     + '            </div>'
-    + '            <div class="dtp-picker" ng-if="!picker.monthPicker">'
+    + '            <div class="dtp-picker" ng-if="!picker.params.monthPicker">'
     + '                <mdc-datetime-picker-calendar date="picker.currentDate" picker="picker" class="dtp-picker-calendar" ng-show="picker.currentView === picker.VIEWS.DATE"></mdc-datetime-picker-calendar>'
     + '                <div class="dtp-picker-datetime" ng-show="picker.currentView !== picker.VIEWS.DATE">'
     + '                    <div class="dtp-actual-meridien">'
